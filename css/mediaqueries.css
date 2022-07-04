@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Space+Mono&display=swap");
+
+:root {
+  /* COLORS */
+  --primary-color: #44db8f;
+  --secondary-color: #4630eb;
+  --background-color: #15181a;
+  --backgroundVariant-color: #2d3237;
+  --white-color: #fff;
+  --black-color: #000;
+  /* COLORS HOVER */
+  --primaryHover-color: #2cc678;
+  --secondaryHover-color: #3e2ad2;
+  /* FONTS */
+  --title-font: "Space Mono", monospace;
+  --paragraph-font: "Roboto Mono", monospace;
+}
+
+/* NAVBAR */
+
+@media screen and (max-width: 768px) {
+  .naviguation nav ul li:nth-child(1) {
+    display: none;
+  }
+  .naviguation nav ul li:nth-child(2) {
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  .naviguation nav ul li:nth-child(1) {
+    display: none;
+  }
+  .naviguation nav ul li:nth-child(2) {
+    display: none;
+  }
+}
+
+/* HEADER */
+
+@media screen and (max-width: 968px) {
+  .illustration,
+  .heading-title {
+    width: 100% !important;
+    margin: 0 24px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .illustration,
+  .heading-title {
+    width: 100% !important;
+    margin: 0 24px !important;
+  }
+}
+@media screen and (max-width: 540px) {
+  .illustration,
+  .heading-title {
+    width: 100% !important;
+    margin: 0 24px !important;
+  }
+  .title-1 h2 {
+    font-size: 32px;
+  }
+  .heading-social {
+    display: flex;
+    justify-content: space-between;
+  }
+  .heading-social i {
+    margin: 0;
+  }
+}
+
+/* ABOUT */
+
+@media screen and (max-width: 968px) {
+  #about .container {
+    background-color: transparent;
+  }
+
+  #about {
+    background-color: var(--secondary-color);
+  }
+  .about {
+    height: auto !important;
+  }
+  .about h2 {
+    padding: 0 !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #about .container {
+    background-color: transparent;
+  }
+
+  #about {
+    background-color: var(--secondary-color);
+  }
+  .about {
+    height: auto;
+  }
+  .about p {
+    margin: 24px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #about .container {
+    background-color: transparent;
+  }
+
+  #about {
+    background-color: var(--secondary-color);
+  }
+  .about {
+    height: auto;
+  }
+  .about h2 {
+    font-size: 32px;
+  }
+  .about p {
+    margin: 24px !important;
+  }
+}
+
+/* SKILLS */
+
+@media screen and (max-width: 968px) {
+  #skills {
+    margin: 0;
+  }
+  .skills {
+    margin-top: 0 !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #skills {
+    margin: 0;
+  }
+  .skills {
+    margin-top: 0 !important;
+  }
+  .column {
+    width: 100% !important;
+    box-shadow: none !important;
+  }
+  .column:nth-child(2) {
+    border: none !important;
+    border-top: 1px solid rgb(224, 224, 224) !important;
+    border-bottom: 1px solid rgb(224, 224, 224) !important;
+  }
+}
+@media screen and (max-width: 540px) {
+  #skills {
+    margin: 0;
+  }
+  .skills {
+    margin-top: 0 !important;
+  }
+  .column {
+    width: 100% !important;
+    box-shadow: none !important;
+  }
+  .column:nth-child(2) {
+    border: none !important;
+  }
+}
+
+/* WORK */
+
+@media screen and (max-width: 1100px) {
+  .work-content {
+    width: 45% !important;
+  }
+  .work-content:nth-last-child(1) {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .work-content {
+    width: 45% !important;
+  }
+  .work-content:nth-last-child(1) {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 968px) {
+  .work-content {
+    width: 40% !important;
+  }
+  .work-content:nth-last-child(1) {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .work-content {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 540px) {
+  .work-content {
+    width: 100% !important;
+  }
+}
+
+/* LABS */
+
+@media screen and (max-width: 1100px) {
+  .experience {
+    width: 100% !important;
+  }
+  .labs .illustration {
+    margin: 24px auto !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .experience {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 968px) {
+  .experience {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .experience {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 540px) {
+  .experience {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <g id="bouton-lecture" transform="translate(0.164 -4325)">
+    <circle id="Bouton" cx="75" cy="75" r="75" transform="translate(-0.164 4325)" fill="#2e71f2"/>
+    <path id="Icône" d="M626.265,4402.455l-40.616-18.812A4.193,4.193,0,0,0,583.7,4383c-1.192,0-2.708.752-2.708,2.151v38.7c0,1.4,1.516,2.149,2.708,2.149a4.192,4.192,0,0,0,1.949-.645l40.616-18.813c.867-.431,1.733-.861,1.733-2.043S627.131,4402.886,626.265,4402.455Z" transform="translate(-522.992 -4.498)" fill="#fff"/>
+  </g>
+</svg>

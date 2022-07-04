@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Space+Mono&display=swap");
+
+:root {
+  /* COLORS */
+  --primary-color: #44db8f;
+  --secondary-color: #4630eb;
+  --background-color: #15181a;
+  --backgroundVariant-color: #2d3237;
+  --white-color: #fff;
+  --black-color: #000;
+  /* COLORS HOVER */
+  --primaryHover-color: #2cc678;
+  --secondaryHover-color: #3e2ad2;
+  /* FONTS */
+  --title-font: "Space Mono", monospace;
+  --paragraph-font: "Roboto Mono", monospace;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+h2,
+h3,
+h4 {
+  font-family: var(--title-font);
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+p,
+a,
+span {
+  font-family: var(--paragraph-font);
+  font-size: 16px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* SECTIONS */
+
+#navbar,
+#header,
+#labs {
+  background-color: var(--background-color);
+}
+
+#header {
+  margin-bottom: 200px;
+}
+
+#about {
+  padding: 64px 0;
+}
+
+#about .container {
+  background-color: var(--secondary-color);
+  position: relative;
+  z-index: 10;
+}
+
+#skills,
+#work {
+  background-color: var(--white-color);
+}
+
+#skills {
+  margin-top: -200px;
+}
+
+#labs {
+  margin: 64px 0;
+}
+
+#footer {
+  background-color: var(--backgroundVariant-color);
+}
+
+#navbar,
+#header,
+#about,
+#skills,
+#work,
+#labs,
+#footer {
+  overflow: hidden;
+}
+
+/* CONTAINER */
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/* CONTAINER MEDIA QUERIES */
+
+@media screen and (max-width: 1100px) {
+  .container {
+    width: 1024px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 968px;
+  }
+}
+@media screen and (max-width: 968px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .container {
+    width: 320px;
+  }
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: var(--backgroundVariant-color);
+  border: 2px solid var(--primary-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  margin: 16px 0;
+}
+
+.btn:hover {
+  background-color: var(--primaryHover-color);
+}
+
+.btn-icon {
+  background-color: transparent;
+  color: var(--white-color);
+  border: 2px solid var(--white-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 8px 16px;
+}
+
+.btn-icon i {
+  margin-right: 10px;
+}
+
+.btn-icon:hover {
+  background-color: var(--white-color);
+  color: var(--background-color);
+}
+
+.link {
+  color: var(--white-color);
+  text-decoration-color: var(--primary-color);
+}
+
+.link:hover {
+  color: var(--primary-color);
+}

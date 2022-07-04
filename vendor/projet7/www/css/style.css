@@ -1,0 +1,299 @@
+/* NAVBAR */
+
+.active {
+  transform: translateY(55px) !important;
+  transition: 0.5s;
+}
+
+.navbar {
+  height: 124px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  margin: 0;
+  vertical-align: bottom;
+}
+
+.navbar h1 .nav-link {
+  vertical-align: text-bottom;
+  font-size: 32px !important;
+}
+
+.navbar h1 a img {
+  width: 32px;
+  vertical-align: top;
+  margin-right: 16px;
+}
+
+.navbar nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar nav ul li {
+  list-style: none;
+  display: inline;
+  padding-right: 30px;
+}
+
+.navbar nav ul li:nth-last-child(1) {
+  padding: 0;
+}
+
+.burger {
+  display: none;
+}
+
+.burger .fa-solid {
+  cursor: pointer;
+  font-size: 32px;
+  position: absolute;
+  color: #f4f4f4;
+  top: 48px;
+  right: 32px;
+  z-index: 10;
+}
+
+.burger ul {
+  transform: translateY(-550px);
+  background-color: #767273;
+  width: 100%;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  left: 0;
+  margin: 0;
+  transition: 0.5s;
+}
+
+.burger ul .list {
+  display: block;
+  text-align: center;
+  padding: 16px 0 !important;
+  margin: 0;
+}
+
+.burger ul a {
+  margin: 16px 0;
+  display: block;
+  text-align: center;
+}
+
+/* EXPLORE */
+
+#explore h2,
+#explore .subtitle {
+  text-align: center;
+}
+
+.btn-center {
+  display: block;
+  margin: 60px auto 0 auto;
+  text-align: center;
+  width: 168px;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: stretch;
+}
+
+.text {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text:nth-child(1) {
+  padding-right: 32px;
+}
+.text:nth-child(2) {
+  padding-left: 32px;
+}
+
+/* TEAMS */
+
+#teams {
+  display: flex;
+}
+
+#teams h2,
+#teams .subtitle {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.column-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  align-content: stretch;
+}
+
+.card {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.card img {
+  width: 140px;
+  border-radius: 70px;
+}
+
+.card h4 {
+  width: 100%;
+}
+
+/* FEEDBACK */
+
+#feedback h4:nth-child(1) {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+#feedback .container .column-2 .text h3,
+#feedback .container .column-2 .text p {
+  width: 100%;
+}
+
+/* EXPERIENCE */
+
+.circle-image,
+.info {
+  display: flex;
+}
+
+.circle-image {
+  width: 310px;
+}
+
+.info {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 550px;
+}
+
+.info h2,
+.info p {
+  width: 100%;
+}
+
+.circle-image img {
+  width: 310px;
+  border-radius: 155px;
+}
+
+/* FUTUR */
+
+#futur .column-2 {
+  flex-direction: row-reverse;
+}
+
+/* VIDEO PLAYER */
+
+#video {
+  display: flex;
+  text-align: center;
+}
+
+#video h2 {
+  padding-bottom: 60px;
+}
+
+#video p {
+  padding-top: 60px;
+}
+
+/* INITIATIVE */
+
+#initiative {
+  text-align: center;
+}
+
+#initiative .subtitle {
+  padding-bottom: 60px;
+}
+
+.column-4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.box {
+  width: 225px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.box h4 {
+  width: 100%;
+}
+
+/* NEWSLETTER */
+
+#newsletter {
+  display: flex;
+  text-align: center;
+}
+
+#newsletter .subtitle {
+  padding-bottom: 60px;
+}
+
+.news-input {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* FOOTER */
+
+#footer .column-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+}
+
+#footer h3 a img {
+  width: 24px;
+  vertical-align: middle;
+  margin-right: 16px;
+  padding-bottom: 6px;
+}
+
+.footer-content a {
+  display: inline-block;
+}
+
+.footer-content:nth-child(3) {
+  text-align: end;
+}
+
+.footer-content:nth-child(3) img:nth-last-child(1) {
+  padding-left: 12px;
+}
