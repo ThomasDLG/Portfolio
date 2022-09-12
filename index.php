@@ -78,7 +78,7 @@ $experience = array(
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-          content="Thomas Delage Portfolio, UI Design, Web Designer, Web Developer, étudiant à la recherche d'une alternance"
+          content="Thomas Delage Portfolio, UI Design, Web Designer, Web Developer, étudiant en alternance chez Inovagora"
     />
     <link rel="icon" href="src/icon.png" />
     <link rel="stylesheet" href="css/reset.css">
@@ -95,13 +95,13 @@ $experience = array(
     <section id="navbar">
         <div class="container">
             <div class="naviguation">
-                <h1 data-aos="fade-up" data-aos-delay="200">
+                <h1 data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
                     <a href="index.php">
                         <img src="src/logo_white.svg" alt="Logo Thomas Delage">
                     </a>
                 </h1>
                 <nav>
-                    <ul data-aos="fade-uo" data-aos-delay="200">
+                    <ul data-aos="fade-uo" data-aos-delay="200" data-aos-once="true">
                         <li><a class="link" href="#about">à propos</a></li>
                         <li><a class="link" href="#footer">contact</a></li>
                         <li><a class="btn-icon" href="CV.pdf" target="_blank"><i class="fa-solid fa-file-import"></i>Télécharger mon CV</a></li>
@@ -116,6 +116,7 @@ $experience = array(
             <div class="heading">
                 <div data-aos="fade-right"
                      data-aos-delay="200"
+                     data-aos-once="true"
                      class="illustration">
                     <img src="src/illustration/head.png" alt="minimalist illustration">
                 </div>
@@ -123,42 +124,52 @@ $experience = array(
                     <div class="title-1">
                         <p data-aos="fade-right"
                            data-aos-delay="200"
+                           data-aos-once="true"
                         >Salut, je m'appelle</p>
                         <h2 data-aos="fade-up"
                             data-aos-delay="200"
+                            data-aos-once="true"
                         >Thomas Delage</h2>
                     </div>
                     <div class="title-1">
                         <p data-aos="fade-right"
                            data-aos-delay="350"
+                           data-aos-once="true"
                         >je suis ...</p>
                         <h2 data-aos="fade-up"
                             data-aos-delay="350"
+                            data-aos-once="true"
                         >Web Developer <br>UI Designer</h2>
                     </div>
                     <div class="heading-box">
                         <i data-aos="fade-up"
                            data-aos-delay="500"
+                           data-aos-once="true"
                            class="fa-solid fa-arrow-right"></i>
                         <p data-aos="fade-right"
                            data-aos-delay="500"
-                        >Actuellement à la recherche d’une alternance de "Developpeur Web"</p>
+                           data-aos-once="true"
+                        >Développeur web en alternance chez Inovagora</p>
                     </div>
                     <div class="heading-button">
                         <a data-aos="fade-up"
                            data-aos-delay="650"
+                           data-aos-once="true"
                            href="#work"
                            class="btn">Découvrir mon portfolio</a>
                     </div>
                     <div class="heading-social">
                         <a data-aos="fade-up"
                            data-aos-delay="750"
+                           data-aos-once="true"
                            href="https://www.behance.net/thomasdelage"><i class="fa-brands fa-behance"></i></a>
                         <a data-aos="fade-up"
                            data-aos-delay="850"
+                           data-aos-once="true"
                            href="https://codepen.io/th0masdlg"><i class="fa-brands fa-codepen"></i></a>
                         <a data-aos="fade-up"
                            data-aos-delay="950"
+                           data-aos-once="true"
                            href="https://www.linkedin.com/in/thomasdlg/"><i class="fa-brands fa-linkedin-in"></i></a>
                     </div>
                 </div>
@@ -169,10 +180,10 @@ $experience = array(
     <section id="about">
         <div class="container">
             <div class="about">
-                <h2 data-aos="fade-up" data-aos-delay="1000">Qui suis-je ?</h2>
+                <h2 data-aos="fade-up" data-aos-delay="1000" data-aos-once="true">Qui suis-je ?</h2>
                 <p data-aos="fade-right"
-                   data-aos-delay="200">
-                   Actuellement en formation de concepteur designer UI, je suis à la recherche d’une alternance d’un an pour poursuivre mon cursus en tant que développeur Web & Web mobile. </p>
+                   data-aos-delay="200" data-aos-once="true">
+                   Actuellement en formation de développeur Web et Web mobile, je m'intéresse de près au Web 3.0 et à la bloc Chain qui sera sans doute bientôt intégré à beaucoup de site internet.... </p>
             </div>
         </div>
     </section>
@@ -181,48 +192,48 @@ $experience = array(
         <div class="container">
             <div class="skills">
                 <div class="column">
-                    <img data-aos="fade" data-aos-delay="200" src="src/icons/design.svg" alt="design icon">
-                    <h4 data-aos="fade" data-aos-delay="200">Design</h4>
-                    <span data-aos="fade" data-aos-delay="300">Ce que j'aime faire</span>
-                        <p data-aos="fade" data-aos-delay="350">UI, UX, Montages, Logos</p>
-                    <span data-aos="fade" data-aos-delay="450">Outils</span>
+                    <img data-aos="fade" data-aos-delay="200" data-aos-once="true" src="src/icons/design.svg" alt="design icon">
+                    <h4 data-aos="fade" data-aos-delay="200" data-aos-once="true">Design</h4>
+                    <span data-aos="fade" data-aos-delay="300" data-aos-once="true">Ce que j'aime faire</span>
+                        <p data-aos="fade" data-aos-delay="350" data-aos-once="true">UI, UX, Montages, Logos</p>
+                    <span data-aos="fade" data-aos-delay="450" data-aos-once="true">Outils</span>
                     <ul>
-                        <li data-aos="fade" data-aos-delay="500">Figma</li>
-                        <li data-aos="fade" data-aos-delay="550">XD</li>
-                        <li data-aos="fade" data-aos-delay="600">Photoshop</li>
-                        <li data-aos="fade" data-aos-delay="650">Illustrator</li>
-                        <li data-aos="fade" data-aos-delay="700">InDesign</li>
-                        <li data-aos="fade" data-aos-delay="750">After Effect</li>
+                        <li data-aos="fade" data-aos-delay="500" data-aos-once="true">Figma</li>
+                        <li data-aos="fade" data-aos-delay="550" data-aos-once="true">XD</li>
+                        <li data-aos="fade" data-aos-delay="600" data-aos-once="true">Photoshop</li>
+                        <li data-aos="fade" data-aos-delay="650" data-aos-once="true">Illustrator</li>
+                        <li data-aos="fade" data-aos-delay="700" data-aos-once="true">InDesign</li>
+                        <li data-aos="fade" data-aos-delay="750" data-aos-once="true">After Effect</li>
                     </ul>
                 </div>
                 <div class="column">
-                    <img data-aos="fade" data-aos-delay="200" src="src/icons/code.svg" alt="design icon">
-                    <h4 data-aos="fade" data-aos-delay="200">Code</h4>
-                    <span data-aos="fade" data-aos-delay="300">Langages</span>
-                    <p data-aos="fade" data-aos-delay="350">HTML, CSS, JS, PhP, MySQL</p>
-                    <span data-aos="fade" data-aos-delay="450">Outils</span>
+                    <img data-aos="fade" data-aos-delay="200" data-aos-once="true" src="src/icons/code.svg" alt="design icon">
+                    <h4 data-aos="fade" data-aos-delay="200" data-aos-once="true">Code</h4>
+                    <span data-aos="fade" data-aos-delay="300" data-aos-once="true">Langages</span>
+                    <p data-aos="fade" data-aos-delay="350" data-aos-once="true">HTML, CSS, JS, PhP, MySQL</p>
+                    <span data-aos="fade" data-aos-delay="450" data-aos-once="true">Outils</span>
                     <ul>
-                        <li data-aos="fade" data-aos-delay="500">VS Code</li>
-                        <li data-aos="fade" data-aos-delay="550">Laragon</li>
-                        <li data-aos="fade" data-aos-delay="600">PhPmyAdmin</li>
-                        <li data-aos="fade" data-aos-delay="650">Bootstrap</li>
-                        <li data-aos="fade" data-aos-delay="700">AOS</li>
-                        <li data-aos="fade" data-aos-delay="750">Wordpress</li>
+                        <li data-aos="fade" data-aos-delay="500" data-aos-once="true">VS Code</li>
+                        <li data-aos="fade" data-aos-delay="550" data-aos-once="true">Laragon</li>
+                        <li data-aos="fade" data-aos-delay="600" data-aos-once="true">PhPmyAdmin</li>
+                        <li data-aos="fade" data-aos-delay="650" data-aos-once="true">Bootstrap</li>
+                        <li data-aos="fade" data-aos-delay="700" data-aos-once="true">AOS</li>
+                        <li data-aos="fade" data-aos-delay="750" data-aos-once="true">Wordpress</li>
                     </ul>
                 </div>
                 <div class="column">
-                    <img data-aos="fade" data-aos-delay="200" src="src/icons/soft_skills.svg" alt="design icon">
-                    <h4 data-aos="fade" data-aos-delay="200">Personnel</h4>
-                    <span data-aos="fade" data-aos-delay="200">Soft Skills</span>
-                    <p data-aos="fade" data-aos-delay="350">Efficace, Organisé, Polyvalent</p>
-                    <span data-aos="fade" data-aos-delay="450">Hobbies</span>
+                    <img data-aos="fade" data-aos-delay="200" data-aos-once="true" src="src/icons/soft_skills.svg" alt="design icon">
+                    <h4 data-aos="fade" data-aos-delay="200" data-aos-once="true">Personnel</h4>
+                    <span data-aos="fade" data-aos-delay="200" data-aos-once="true">Soft Skills</span>
+                    <p data-aos="fade" data-aos-delay="350" data-aos-once="true">Efficace, Organisé, Polyvalent</p>
+                    <span data-aos="fade" data-aos-delay="450" data-aos-once="true">Hobbies</span>
                     <ul>
-                        <li data-aos="fade" data-aos-delay="500">Musculation</li>
-                        <li data-aos="fade" data-aos-delay="550">Lecture</li>
-                        <li data-aos="fade" data-aos-delay="600">Jeux vidéos</li>
-                        <li data-aos="fade" data-aos-delay="650">Finances</li>
-                        <li data-aos="fade" data-aos-delay="700">Code</li>
-                        <li data-aos="fade" data-aos-delay="750">Graphisme</li>
+                        <li data-aos="fade" data-aos-delay="500" data-aos-once="true">Musculation</li>
+                        <li data-aos="fade" data-aos-delay="550" data-aos-once="true">Lecture</li>
+                        <li data-aos="fade" data-aos-delay="600" data-aos-once="true">Jeux vidéos</li>
+                        <li data-aos="fade" data-aos-delay="650" data-aos-once="true">Finances</li>
+                        <li data-aos="fade" data-aos-delay="700" data-aos-once="true">Code</li>
+                        <li data-aos="fade" data-aos-delay="750" data-aos-once="true">Graphisme</li>
                     </ul>
                 </div>
             </div>
@@ -233,13 +244,13 @@ $experience = array(
         <div class="container">
             <div class="work">
                 <h2 data-aos="fade-up">Mes projets</h2>
-                <p data-aos="fade" data-aos-delay="200">
+                <p data-aos="fade" data-aos-delay="200" data-aos-once="true">
                     Retrouvez ici mes projets réalisés depuis 2020 à aujourd’hui
                 </p>
                 <div class="work-container">
                     <?php
                     foreach ($work as $key => $value) {
-                        echo '<div data-aos="fade-right" class="work-content">';
+                        echo '<div data-aos="fade-right" data-aos-once="true" class="work-content">';
                             echo '<img src="' . $work[$key]["image"] . '" alt="' . $key . '">';
                             echo '<div class="figcaption">';
                                 echo '<p>' . $key . ' <br> ' . $work[$key]["datecreation"] . '</p>';
@@ -260,14 +271,15 @@ $experience = array(
                 <div class="experience">
                     <p data-aos="fade-right"
                        data-aos-delay="100"
+                       data-aos-once="true"
                        class="subtitle">
                        Mes expériences sont présentées ici :)
                     </p>
-                    <h2 data-aos="fade-right" data-aos-delay="200">Le labo</h2>
+                    <h2 data-aos="fade-right" data-aos-delay="200" data-aos-once="true">Le labo</h2>
                     <div class="experience-container">
                         <?php
                             foreach ($experience as $key => $value) {
-                                echo '<a data-aos="fade-right" data-aos-delay="300" href="' . $experience[$key]["lien"] . '"target="_blank">';
+                                echo '<a data-aos="fade-right" data-aos-delay="300" data-aos-once="true" href="' . $experience[$key]["lien"] . '"target="_blank">';
                                     echo '<div class="experience-content">';
                                         echo '<div class="experience-title">';
                                             echo '<p>' . $experience[$key]["nom"] . '</p>';
@@ -282,6 +294,7 @@ $experience = array(
                 </div>
                 <div data-aos="fade-left"
                      data-aos-delay="100"
+                     data-aos-once="true"
                      class="illustration">
                     <img src="src/illustration/labs.png" alt="labo illustration">
                 </div>
