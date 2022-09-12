@@ -183,7 +183,7 @@ $experience = array(
                 <h2 data-aos="fade-up" data-aos-delay="1000" data-aos-once="true">Qui suis-je ?</h2>
                 <p data-aos="fade-right"
                    data-aos-delay="200" data-aos-once="true">
-                   Actuellement en formation de développeur Web et Web mobile, je m'intéresse de près au Web 3.0 et à la bloc Chain qui sera sans doute bientôt intégré à beaucoup de site internet.... </p>
+                   Actuellement en formation de développeur Web et Web mobile, je m'intéresse de près au Web 3.0 et à la blockchain qui sera sans doute bientôt intégré à beaucoup de site internet.... </p>
             </div>
         </div>
     </section>
