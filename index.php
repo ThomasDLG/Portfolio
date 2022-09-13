@@ -243,7 +243,7 @@ $experience = array(
     <section id="work">
         <div class="container">
             <div class="work">
-                <h2 data-aos="fade-up">Mes projets</h2>
+                <h2 data-aos="fade-up" data-aos-once="true">Mes projets</h2>
                 <p data-aos="fade" data-aos-delay="200" data-aos-once="true">
                     Retrouvez ici mes projets réalisés depuis 2020 à aujourd’hui
                 </p>
